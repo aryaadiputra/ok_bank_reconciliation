@@ -396,9 +396,9 @@ class bank_reconciliation_line(osv.osv):
                     'amount_currency': company_currency <> currency and line.amount or 0.0,
                     'date': line.date,
                     
-                    'district'          : line.district_id.id,
-                    'project_sub_id'    : line.project_sub_id.id,
-                    'analytic_account_id': analytic_account_id,
+#                     'district'          : line.district_id.id,
+#                     'project_sub_id'    : line.project_sub_id.id,
+#                     'analytic_account_id': analytic_account_id,
                             }
                 
                 move_line_credit = {
